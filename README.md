@@ -1,6 +1,6 @@
-<center>
+<div align="center">
     <img src="https://cdn.scotch.io/scotchy-uploads/2015/11/Ionic_Logo.svg_.png" width="300"/>
-</center>
+</div>
 
 # Ionic workspace
 
