@@ -1,4 +1,6 @@
-<center><img src="https://cdn.scotch.io/scotchy-uploads/2015/11/Ionic_Logo.svg_.png" alt="ionic" style="width: 300px;"/></center>
+<center>
+    <img src="https://cdn.scotch.io/scotchy-uploads/2015/11/Ionic_Logo.svg_.png" width="300">
+</center>
 
 # Ionic workspace
 
