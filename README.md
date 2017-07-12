@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn.scotch.io/scotchy-uploads/2015/11/Ionic_Logo.svg_.png" width="300"/>
+    <img src="https://cdn.scotch.io/scotchy-uploads/2015/11/Ionic_Logo.svg_.png" width="400"/>
 </div>
 
 # Ionic workspace
