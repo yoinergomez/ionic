@@ -1,0 +1,25 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Var String</th>
+      <th>{{name}}</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>{{name | uppercase}}</td> <!-- Using pipes -->
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>{{num}}</td>
+    </tr>
+    <tr>
+      <td>Operation</td>
+      <td>{{num + 1}}</td> <!-- arithmetic operation --> 
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" class="btn btn-primary" (click)="changeName()">Change name</button>
