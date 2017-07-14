@@ -5,12 +5,14 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { VariablesComponent } from './components/variables/variables.component';
+import { AttributesComponent } from './components/attributes/attributes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    VariablesComponent
+    VariablesComponent,
+    AttributesComponent
   ],
   imports: [
     BrowserModule,
