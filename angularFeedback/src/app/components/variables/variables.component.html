@@ -9,7 +9,8 @@
   <tbody>
     <tr>
       <td>Name</td>
-      <td>{{name | uppercase}}</td> <!-- Using pipes -->
+      <!-- Using pipes -->
+      <td>{{name | uppercase}}</td>
     </tr>
     <tr>
       <td>Number</td>
@@ -17,9 +18,16 @@
     </tr>
     <tr>
       <td>Operation</td>
-      <td>{{num + 1}}</td> <!-- arithmetic operation --> 
+      <!-- arithmetic operation -->
+      <td>{{num + 1}}</td>
     </tr>
   </tbody>
 </table>
 
-<button type="button" class="btn btn-primary" (click)="changeName()">Change name</button>
+<button type="button" class="btn btn-primary" (click)="changeName()" [disabled]="name.length != 0">Change name</button>
+
+
+<div class="form-group">
+  <label for="name2">Name:</label>
+  <input type="text" class="form-control" name="name" id="name" placeholder="Name" [(ngModel)]="name">
+</div>
