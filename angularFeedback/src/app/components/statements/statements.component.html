@@ -1,0 +1,13 @@
+<h1 *ngIf="show">Show</h1>
+<h1 *ngIf="!show">Hidden</h1>
+
+<button type="button" class="btn btn-primary" (click)="invertir()">Change 1</button>
+
+<!-- Event without function -->
+<button type="button" class="btn btn-primary" (click)="show = !show">Change 2</button>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let character of characters; let i = index">
+    <span>{{i}} {{character}}</span> 
+  </li>
+</ul>
