@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { VariablesComponent } from './components/variables/variables.component';
 import { AttributesComponent } from './components/attributes/attributes.component';
 import { StatementsComponent } from './components/statements/statements.component';
+import { HttpComponent } from './components/http/http.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StatementsComponent } from './components/statements/statements.componen
     NavbarComponent,
     VariablesComponent,
     AttributesComponent,
-    StatementsComponent
+    StatementsComponent,
+    HttpComponent
   ],
   imports: [
     BrowserModule,
