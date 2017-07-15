@@ -8,14 +8,10 @@ import { StatementsComponent } from './components/statements/statements.componen
 import { VariablesComponent } from './components/variables/variables.component';
 
 const routes: Routes = [
-  {
-    path:'', children: [
-      { path: '', redirectTo:'attributes', pathMatch:'full' },
-      { path: 'attributes', component: AttributesComponent },
-      { path: 'statements', component: StatementsComponent },
-      { path: 'variables', component: VariablesComponent }
-    ]
-  }
+  { path: '', redirectTo: 'attributes', pathMatch: 'full' },
+  { path: 'attributes', component: AttributesComponent },
+  { path: 'statements', component: StatementsComponent },
+  { path: 'variables', component: VariablesComponent }
 ];
 
 @NgModule({
