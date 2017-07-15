@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { AttributesComponent } from './components/attributes/attributes.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { StatementsComponent } from './components/statements/statements.component';
+import { HttpComponent } from './components/http/http.component';
 import { VariablesComponent } from './components/variables/variables.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'attributes', pathMatch: 'full' },
   { path: 'attributes', component: AttributesComponent },
   { path: 'statements', component: StatementsComponent },
+  { path: 'http', component: HttpComponent },
   { path: 'variables', component: VariablesComponent }
 ];
 
